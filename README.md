@@ -178,7 +178,7 @@ act.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 - **1.0.4**
   - Bug Fixed
 - **2.0.0**
-  - Supoert SDK 16
+  - Support SDK 16
 
 ---
 # Contribution
