@@ -166,7 +166,7 @@ act.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 ---
 # Example Code/App
 
-**FullCode [MainActivity](https://github.com/gzeinnumer/AndroidDropdown/blob/master/app/src/main/java/com/gzeinnumer/AndroidDropdown/MainActivity.java) & [ExampleModel](https://github.com/gzeinnumer/AndroidDropdown/blob/master/app/src/main/java/com/gzeinnumer/AndroidDropdown/ExampleModel.java) & [XML](https://github.com/gzeinnumer/AndroidDropdown/blob/master/app/src/main/res/layout/activity_main.xml)**
+**FullCode [MainActivity](https://github.com/gzeinnumer/AndroidDropdown/blob/master/app/src/main/java/com/gzeinnumer/androiddropdown/MainActivity.java) & [ExampleModel](https://github.com/gzeinnumer/AndroidDropdown/blob/master/app/src/main/java/com/gzeinnumer/androiddropdown/ExampleModel.java) & [XML](https://github.com/gzeinnumer/AndroidDropdown/blob/master/app/src/main/res/layout/activity_main.xml)**
 
 [Sample Code And App](https://github.com/gzeinnumer/MyLibAutoTextViewExample)
 
