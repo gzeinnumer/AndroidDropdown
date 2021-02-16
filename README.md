@@ -106,7 +106,11 @@ act.setAdapter(adapter);
 act.setOnItemClickListener(new AdapterView.OnItemClickListener() {
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        act.setText(listString.get(position).toString(), false);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            act.setText(list.get(position), false);
+        } else {
+            act.setText(list.get(position));
+        }
     }
 });
 ```
@@ -151,7 +155,11 @@ act.setAdapter(adapter);
 act.setOnItemClickListener(new AdapterView.OnItemClickListener() {
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        act.setText(listObject.get(position).toString(), false);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            act.setText(list.get(position), false);
+        } else {
+            act.setText(list.get(position));
+        }
     }
 });
 ```
