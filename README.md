@@ -42,6 +42,7 @@ allprojects {
 dependencies {
   ...
   implementation 'com.github.gzeinnumer:AndroidDropdown:version'
+  implementation 'com.google.android.material:material:1.3.0'
 }
 ```
 
