@@ -93,13 +93,13 @@ adapter.setItemStyle(R.style.AutoCompleteTextViewStyle);
 ```java
 AutoCompleteTextView act = findViewById(R.id.act);
 
-ArrayList<String> listString = new ArrayList<String>();
-listString.add("Satu");
-listString.add("Dua");
-listString.add("Tiga");
-listString.add("Empat");
+ArrayList<String> list = new ArrayList<String>();
+list.add("Satu");
+list.add("Dua");
+list.add("Tiga");
+list.add("Empat");
 
-AdapterAutoCompleteText<String> adapter = new AdapterAutoCompleteText<String>(getApplicationContext(), listString);
+AdapterAutoCompleteText<String> adapter = new AdapterAutoCompleteText<String>(getApplicationContext(), list);
 //adapter.setItemStyle(R.style.AutoCompleteTextViewStyle);
 act.setAdapter(adapter);
 
