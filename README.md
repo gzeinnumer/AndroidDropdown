@@ -151,6 +151,7 @@ listObject.add(new ExampleModel(4, "Zein4", "Balbar4"));
 AdapterAutoCompleteText<ExampleModel> adapter = new AdapterAutoCompleteText<ExampleModel>(getApplicationContext(), listObject);
 //adapter.setItemStyle(R.style.AutoCompleteTextViewStyle);
 act.setAdapter(adapter);
+act.setFreezesText(false);
 
 act.setOnItemClickListener(new AdapterView.OnItemClickListener() {
     @Override
