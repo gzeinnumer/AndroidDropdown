@@ -102,6 +102,7 @@ list.add("Empat");
 AdapterAutoCompleteText<String> adapter = new AdapterAutoCompleteText<String>(getApplicationContext(), list);
 //adapter.setItemStyle(R.style.AutoCompleteTextViewStyle);
 act.setAdapter(adapter);
+act.setFreezesText(false);
 
 act.setOnItemClickListener(new AdapterView.OnItemClickListener() {
     @Override
